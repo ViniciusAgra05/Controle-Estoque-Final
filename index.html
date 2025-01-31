@@ -67,13 +67,7 @@
         sessionStorage.removeItem('usuarioAutenticado');
         window.location.href = 'index.html'; // Redireciona para a página de login
     }
-    
-    window.onload = function() {
-        // Verifica se o usuário está logado ao carregar a página
-        if (!sessionStorage.getItem('usuarioAutenticado')) {
-            window.location.href = 'index.html'; // Redireciona para a página de login
-        }
-    }
+   
     </script>
 </body>
 </html>
